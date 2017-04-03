@@ -1,0 +1,153 @@
+body{
+  margin: 0;
+  background: #EDF2C5;
+  width: 1025px;
+  /*版面寬度1260px*/
+  margin: auto;
+  /*版面居中對齊*/
+  padding: 0px 160px 0;
+  /*上下，左右 內距*/
+
+}
+#header{
+  background: #7f6000;
+  margin-top: -20px;
+  margin-bottom: 40px;
+}
+#h_logo{
+  width: 280px;
+  font-family: Arial Black;
+  /*字體*/
+  margin:auto;
+}
+#h_logo h1{
+  float: left;
+  font-size: 44px;
+  height: 30px;
+  /*大小*/
+}
+#h_logo img{
+  float: right;
+  height: 44px;
+  margin-top: 35px;
+}
+
+#h_logo::after {
+    clear: both;
+    /*左邊跟右邊漂浮清掉*/
+    content: "";
+    /*讓中間全部變空白*/
+    display: block;
+    /*設成一整條*/
+}
+#lab_search{
+  margin-top: -20px
+  margin-bottom: -20px;
+}
+#lab1 img{
+  height: 23px;
+  margin-top: 20px;
+}
+#lab1 li {
+  display: inline-block;
+  padding: 20px 20px;
+  margin: 0;
+  color: #ffff00;
+}
+#search{
+  display: inline-block;
+  border: 1px #000000 solid;
+  /*設定大小，顏色，外框*/
+  border-radius: 3px; /*圓角*/
+  font-family: Arial BoldMT;
+  color: #9fc5f8;
+  text-decoration: none;
+  /*清除底線*/
+  padding: 0px 70px 0px 2px;
+}
+#content{
+  background-image: url('image/house.jpg');
+  height: 600px;
+  margin-bottom: 50px;
+}
+#lab_btn{
+  float: left;
+  font-size: 26px;
+  height: 30px;
+  color: #f1c232;
+  padding: 13px 23px;
+}
+#btn>a {
+    display: inline-block;
+    border: 1px #778A50 solid;
+    /*設定大小，顏色，外框*/
+    border-radius: 3px; /*圓角*/
+    font-family: Arial BoldMT;
+    color: #9fc5f8;
+    text-decoration: none;
+    /*清除底線*/
+    margin: 5px;
+    font-size: 14px;
+    padding: 4px 10px;
+    text-align: center;
+}
+#footer {
+    background: #783f04;
+    height: 120px;
+    font-family: Arial;
+    margin: auto;
+}
+#d_logo{
+  width: 300px;
+  font-family: Arial Black;
+}
+#d_logo h1{
+  float: left;
+  font-size: 44px;
+  height: 30px;
+}
+
+#d_logo img{
+  float: right;
+  height: 44px;
+  margin-top: 35px;
+}
+#d_logo::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+#Hyperlinks_icon{
+  width: 700px;
+}
+#data{
+  float: right;
+  margin-top: -70px;
+}
+#data a {
+  float: left;
+  display: inline-block;
+  text-decoration: none;
+  padding: 0px 25px;
+  margin: 0;
+}
+#data img{
+  float: right;
+  margin-left: -20px;
+  margin-top: -20px;
+}
+#downline{
+  border-top: 1px #000000 solid;
+  width: 700px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: -16px;
+}
+#address{
+  float: left;
+  margin-top: 10px;
+  margin-left: 23px;
+}
+#phone_fax_email{
+  float: right;
+}
